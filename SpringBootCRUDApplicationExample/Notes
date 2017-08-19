@@ -1,0 +1,4 @@
+Reference : http://websystique.com/springmvc/spring-mvc-4-angularjs-example/
+
+Goal: https://stackoverflow.com/questions/12948723/maven-build-goal-need-to-specify
+Goal = -Dmaven.tomcat.port=8080 tomcat:run
