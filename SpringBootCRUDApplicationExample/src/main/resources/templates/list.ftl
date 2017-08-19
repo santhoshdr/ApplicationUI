@@ -28,12 +28,54 @@
 	
 	                <div class="row">
 	                    <div class="form-group col-md-12">
-	                        <label class="col-md-2 control-lable" for="salary">Salary</label>
+	                        <label class="col-md-2 control-lable" for="emailid">Email ID</label>
 	                        <div class="col-md-7">
-	                            <input type="text" ng-model="ctrl.user.salary" id="salary" class="form-control input-sm" placeholder="Enter your Salary." required ng-pattern="ctrl.onlyNumbers"/>
+	                            <input type="email" ng-model="ctrl.user.emailid" id="emailid" class="form-control input-sm" placeholder="Enter your Email ID." required ng-pattern="ctrl.string"/>
 	                        </div>
 	                    </div>
 	                </div>
+
+
+	                      <div class="row">
+	                    <div class="form-group col-md-12">
+	                        <label class="col-md-2 control-lable" for="state">State </label>
+	                        <div class="col-md-7">
+	                            <input type="text" ng-model="ctrl.user.state" id="state" class="form-control input-sm" placeholder="State" required ng-pattern="ctrl.string"/>
+	                        </div>
+	                    </div>
+	                </div>
+
+
+					
+					      <div class="row">
+	                    <div class="form-group col-md-12">
+	                        <label class="col-md-2 control-lable" for="country">Country </label>
+	                        <div class="col-md-7">
+	                            <input type="text" ng-model="ctrl.user.country" id="country" class="form-control input-sm" placeholder="Country" required ng-pattern="ctrl.string"/>
+	                        </div>
+	                    </div>
+	                </div>
+	                
+	                
+	                      <div class="row">
+	                    <div class="form-group col-md-12">
+	                        <label class="col-md-2 control-lable" for="phone_number">Phone Number</label>
+	                        <div class="col-md-7">
+	                            <input type="text" ng-model="ctrl.user.phone_number" id="phone_number" class="form-control input-sm" placeholder="Phone Number" required ng-pattern="ctrl.onlyIntegers"/>
+	                        </div>
+	                    </div>
+	                </div>
+	                
+
+             <div class="row">
+	                    <div class="form-group col-md-12">
+	                        <label class="col-md-2 control-lable" for="address">Address</label>
+	                        <div class="col-md-7">
+	                            <input type="textarea" ng-model="ctrl.user.address" id="address" class="form-control input-sm" placeholder="Address" required ng-pattern="ctrl.string	"/>
+	                        </div>
+	                    </div>
+	                </div>
+
 
 	                <div class="row">
 	                    <div class="form-actions floatRight">
